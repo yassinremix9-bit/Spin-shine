@@ -1,0 +1,6 @@
+{
+  "name": "Spin & Shine",
+  "description": "Smart washing machine monitoring app in Arabic (RTL) with real-time cycle tracking, notifications center, and cloud persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

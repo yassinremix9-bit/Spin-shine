@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Spin &amp; Shine</string>
+    <string name="app_subtitle">مراقبة آلات الغسيل الذكية</string>
+    <string name="badge_live">مباشر</string>
+    <string name="badge_cached">الذاكرة المؤقتة</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">الرئيسية</string>
+    <string name="nav_notifications">الإشعارات</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Connectivity -->
+    <string name="status_online">متصل</string>
+    <string name="status_offline">غير متصل</string>
+    <string name="offline_banner_message">انقطع الاتصال بالشبكة! يتم العرض من الذاكرة المؤقتة.</string>
+    <string name="action_reconnect">إعادة الاتصال</string>
+    <string name="cd_refresh_data">تحديث حالة الآلات</string>
+    <string name="cd_toggle_network">تبديل حالة الشبكة</string>
+    <string name="cd_open_notifications">فتح مركز الإشعارات</string>
+
+    <!-- Dashboard Stats & Filters -->
+    <string name="stat_total">الإجمالي</string>
+    <string name="stat_available">متاحة</string>
+    <string name="stat_in_use">مشغولة</string>
+    <string name="stat_maintenance">صيانة</string>
+    <string name="section_machines_today">حالة الآلات اليوم</string>
+    <string name="action_add_machine">إضافة آلة</string>
+
+    <string name="filter_all">الكل</string>
+    <string name="filter_available">متاحة</string>
+    <string name="filter_in_use">مشغولة</string>
+    <string name="filter_ending_soon">تنتهي قريباً</string>
+    <string name="filter_maintenance">صيانة</string>
+
+    <!-- Machine Status Labels -->
+    <string name="machine_status_available">متاحة الآن</string>
+    <string name="machine_status_in_use">قيد التشغيل</string>
+    <string name="machine_status_ending_soon">تنتهي قريباً</string>
+    <string name="machine_status_paused">متوقفة مؤقتاً</string>
+    <string name="machine_status_maintenance">تحت الصيانة</string>
+
+    <!-- Machine Actions -->
+    <string name="action_start_cycle">بدء دورة غسيل</string>
+    <string name="action_control_details">تفاصيل والتحكم</string>
+    <string name="action_finish_maintenance">إنهاء الصيانة</string>
+    <string name="action_pause_cycle">إيقاف مؤقت</string>
+    <string name="action_resume_cycle">استئناف الدورة</string>
+    <string name="action_stop_cycle">إنهاء الدورة</string>
+    <string name="action_add_5_min">+5 دقائق</string>
+    <string name="action_set_maintenance">وضع الصيانة</string>
+    <string name="action_delete_machine">حذف الآلة</string>
+    <string name="label_remaining_time">الوقت المتبقي</string>
+    <string name="label_program">البرنامج</string>
+    <string name="label_capacity">السعة</string>
+    <string name="label_location">الموقع</string>
+    <string name="label_reminder_active">التنبيه مفعّل</string>
+    <string name="label_remind_me">نبهني عند الانتهاء</string>
+
+    <!-- Add Machine Sheet -->
+    <string name="title_add_machine">إضافة آلة غسيل جديدة</string>
+    <string name="hint_machine_name">اسم الآلة (مثال: غسالة A3)</string>
+    <string name="hint_machine_model">الموديل (مثال: LG TurboWash)</string>
+    <string name="hint_machine_location">الموقع / الطابق (مثال: الدور الأول)</string>
+    <string name="label_select_capacity">اختر السعة (كجم)</string>
+    <string name="action_save_machine">حفظ وإضافة الآلة</string>
+    <string name="action_cancel">إلغاء</string>
+
+    <!-- Notifications Center -->
+    <string name="title_notifications_center">مركز الإشعارات</string>
+    <string name="subtitle_notifications_center">سجل التنبيهات وحالة آلات الغسيل</string>
+    <string name="action_mark_all_read">تحديد كمقروء</string>
+    <string name="action_clear_all">مسح الكل</string>
+    <string name="empty_notifications_title">لا توجد إشعارات حالياً</string>
+    <string name="empty_notifications_subtitle">ستظهر هنا تنبيهات اكتمال دورات الغسيل وتنبيهات الصيانة فور حدوثها.</string>
+
+    <!-- Settings -->
+    <string name="title_settings">إعدادات التطبيق</string>
+    <string name="subtitle_settings">تخصيص الإشعارات، الاتصال، والمظهر</string>
+    <string name="section_network">الشبكة والاتصال</string>
+    <string name="setting_live_connection">حالة الاتصال المباشر (4G / Wi-Fi)</string>
+    <string name="setting_live_connection_desc">تحديث مؤشرات الغسالات تلقائياً أم من الذاكرة المؤقتة</string>
+    <string name="section_alerts">التنبيهات والإشعارات</string>
+    <string name="setting_push_notifications">تفعيل إشعارات النظام</string>
+    <string name="setting_push_notifications_desc">إرسال تنبيه على شاشة القفل عند تغير حالة الغسالة</string>
+    <string name="setting_cycle_complete">تنبيه اكتمال دورة الغسيل</string>
+    <string name="setting_ending_soon">تنبيه قبل الانتهاء بـ 5 دقائق</string>
+    <string name="setting_sound_vibration">تفعيل الاهتزاز والصوت</string>
+    <string name="action_send_test_notification">إرسال تنبيه تجريبي</string>
+    <string name="section_appearance">المظهر والبيانات</string>
+    <string name="setting_dark_mode">الوضع الداكن</string>
+    <string name="setting_dark_mode_desc">تفعيل المظهر الليلي لراحة العين</string>
+    <string name="action_share_report">مشاركة تقرير حالة الآلات</string>
+    <string name="action_reset_defaults">استعادة الآلات الافتراضية</string>
+
+    <!-- Empty States -->
+    <string name="empty_machines_title">لا توجد آلات مطابقة</string>
+    <string name="empty_machines_subtitle">جرب تغيير الفلتر أو أضف آلة غسيل جديدة لبدء المراقبة.</string>
+    <string name="cd_hero_banner">صورة غرفة الغسيل الذكية</string>
+    <string name="cd_brand_logo">شعار Spin and Shine</string>
+</resources>
